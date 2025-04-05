@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Text.Json;
+using Task_Manager;
+using System.IO;
+
+try
+{
+    
+}
+catch(Exception error)
+{
+    Console.WriteLine ("Exception" + error.Message);
+}
